@@ -142,6 +142,7 @@ export const Form = ({ handleClose }) => {
                 value={data.contactNumber}
                 name="contactNumber"
                 onChange={handleData}
+                inputProps={{ maxLength: 12 }}
               />
             </Grid>
             <Grid item xs={12}>
